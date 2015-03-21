@@ -1,0 +1,19 @@
+---
+layout: default
+title: Коллекция ссылок
+---
+
+  <div class="jumbotron">      
+    <h1>Ссылки</h1>
+    <p>коллекция полезных и интересных ссылок</p>
+  </div>
+
+
+{% for post in site.categories.links %}
+  <div class="page-header">
+    <h1>{{ post.title }} <small>{{ post.description }}</small></h1>
+  </div>
+
+  {{ post.content }}
+
+{% endfor %}

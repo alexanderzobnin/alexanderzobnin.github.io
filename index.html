@@ -1,8 +1,17 @@
 ---
-title: Home - Alexander Zobnin
+layout: default
+title: Главная
 ---
 
-  <div class="jumbotron">      
-    <h1>Sorry, site under construction</h1>
-    <p>by Alexander Zobnin</p>
-  </div>
+<div class="jumbotron">      
+  <h1>Sorry, site under construction</h1>
+  <p>by Alexander Zobnin</p>
+</div>
+
+<div class="container">
+  {% for post in site.posts %}
+    <div class="col-md-4">{{ post.content }}
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </div>
+  {% endfor %}
+</div>

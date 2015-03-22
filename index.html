@@ -10,8 +10,28 @@ title: Главная
 
 <div class="container">
   {% for post in site.posts %}
-    <div class="col-md-4">{{ post.content }}
-      <a href="{{ post.url }}">{{ post.title }}</a>
+    <div class="col-md-6">
+
+      <div class="panel panel-default">
+
+        <div class="panel-heading">        
+          <h3 id="{{ post.title }}">
+            <a href="{{ post.url }}">
+              {{ post.title }}
+            </a>
+            <p>
+              <small>{{ post.description }}</small>
+            </p>
+          </h3>
+        </div>
+
+        <div class="panel-body post">
+          {{ post.content }}
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </div>
+        
+      </div>
+
     </div>
-  {% endfor %}
+  {% endfor %}  
 </div>

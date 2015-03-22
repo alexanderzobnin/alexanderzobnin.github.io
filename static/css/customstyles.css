@@ -1,0 +1,58 @@
+/* Customize brand image size and padding */
+#brand-image {
+  width: 64px;
+  padding-top: 8px;
+}
+
+.github-project {
+  padding: 2px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.github-button {
+  padding: 2px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* Customize font in posts */
+.post {
+  font-size: 14px;
+  line-height: 160%;
+  color: #222;
+  font-family: Verdana, sans-serif;
+}
+
+/* Customize blockquote in posts */
+.post blockquote {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Add params to the post images so that it scales nicely to the parent element.*/
+.post img {
+  /* from bootstrap .img-responsive class */
+  display: block;
+  max-width: 100%;
+  height: auto;
+
+  /* from bootstrap .img-thumbnail class */
+  padding: 4px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.post .media-object {
+  max-width: none;
+}
+
+.post .media-body {
+  font-size: 12px;
+}
+
+.post-nav-fixed {
+  position: fixed;
+  width: 280px;
+}

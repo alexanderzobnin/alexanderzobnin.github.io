@@ -1,0 +1,50 @@
+---
+layout: default
+title: Коллекция ссылок
+---
+
+<div class="row">
+  <div class="col-md-9">
+
+    <div class="page-header">
+      <h1>Коллекция ссылок
+        <p>
+          <small>полезные и интересные статьи, ресурсы и прочее</small>
+        </p>
+      </h1>
+    </div>
+
+    {% for post in site.categories.links %}
+      <div class="page-header">
+        <h1 id="{{ post.title }}">{{ post.title }}
+          <p>
+            <small>{{ post.description }}</small>
+          </p>
+        </h1>
+      </div>
+
+      <!-- Enable post custom font size (.post in customstyles.css) -->
+      <div class="post">
+
+        {{ post.content }}
+
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="col-md-3">
+    <ul class="list-group post-nav-fixed">
+      <a class="list-group-item list-group-item-info" href="#">
+        <strong>
+          <span class="glyphicon glyphicon-triangle-top"></span> В начало</a>
+        </strong>
+      {% for post in site.categories.links %}
+        <a class="list-group-item" href="#{{ post.title }}">
+          <strong>{{ post.title }}</strong>
+          <br>
+          <small>{{ post.description }}</small>
+        </a>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

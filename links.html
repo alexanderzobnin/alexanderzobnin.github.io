@@ -4,6 +4,26 @@ title: Коллекция ссылок
 ---
 
 <div class="row">
+
+  <div class="col-md-3">
+    <div class="post-navigation">
+      <p><a href="#">В начало</a></p>
+
+      <strong>Содержание</strong>
+      <ul>
+        {% for post in site.categories.links %}
+        <li>
+          <a href="#{{ post.title }}">
+            {{ post.title }}
+            <br>
+            <small>{{ post.description }}</small>
+          </a>        
+        </li>      
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
   <div class="col-md-9">
 
     <div class="page-header">
@@ -15,36 +35,21 @@ title: Коллекция ссылок
     </div>
 
     {% for post in site.categories.links %}
-      <div class="page-header">
-        <h1 id="{{ post.title }}">{{ post.title }}
-          <p>
-            <small>{{ post.description }}</small>
-          </p>
-        </h1>
-      </div>
 
       <!-- Enable post custom font size (.post in customstyles.css) -->
       <div class="post">
-
+        <div class="page-header">
+          <h2 id="{{ post.title }}">{{ post.title }}
+            <p>
+              <small>{{ post.description }}</small>
+            </p>
+          </h2>
+        </div>
+        
         {{ post.content }}
 
       </div>
     {% endfor %}
   </div>
-
-  <div class="col-md-3">
-    <ul class="list-group post-nav-fixed">
-      <a class="list-group-item list-group-item-info" href="#">
-        <strong>
-          <span class="glyphicon glyphicon-triangle-top"></span> В начало</a>
-        </strong>
-      {% for post in site.categories.links %}
-        <a class="list-group-item" href="#{{ post.title }}">
-          <strong>{{ post.title }}</strong>
-          <br>
-          <small>{{ post.description }}</small>
-        </a>
-      {% endfor %}
-    </ul>
-  </div>
+  
 </div>

@@ -11,6 +11,8 @@ category: links
 
 [Concurrent HTTP Requests with Python3 and asyncio](http://geekgirl.io/concurrent-http-requests-with-python3-and-asyncio/) - Параллельные HTTP запросы в Python 3 с помощью asyncio.
 
+[Writing Forwards Compatible Python Code](http://lucumr.pocoo.org/2011/1/22/forwards-compatible-python/) - как писать код на Python 2, который проще будет перенести на версию 3.
+
 ***
 
 ## Инструменты разработчика
@@ -33,7 +35,9 @@ category: links
 
 Быстрый, мощный и гибкий текстовый редактор для программистов со множеством плагинов.
 
-[Predawn](https://github.com/jamiewilson/predawn) - Крутая темная тема.  
-![predawn](https://github.com/jamiewilson/predawn/raw/master/screenshots/screenshot.png)
+[Package Control](https://packagecontrol.io/installation) - менеджер пакетов для Sublime Text.
+
+[Predawn](https://github.com/jamiewilson/predawn) - крутая темная тема.  
+<a href="https://github.com/jamiewilson/predawn/raw/master/screenshots/screenshot.png"><img src="https://github.com/jamiewilson/predawn/raw/master/screenshots/screenshot.png" width="256"></a>
 
 [PowerShell](https://github.com/SublimeText/PowerShell) - плагин для поддержки языка PowerShell.

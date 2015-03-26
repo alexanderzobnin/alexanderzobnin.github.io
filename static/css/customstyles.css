@@ -16,12 +16,24 @@
   padding-right: 16px;
 }
 
+/*** .page-content ***/
+
+.page-content {
+  color: #3E4349;
+}
+
+/*** .post - post content ***/
+
 /* Customize font in posts */
 .post {
   font-size: 15px;
-  line-height: 160%;
-  color: #222;
+  line-height: 140%;
   font-family: Verdana, sans-serif;
+}
+
+/* Customize link style in posts */
+.post a {
+  color: #007BAB;
 }
 
 /* Customize blockquote in posts */
@@ -52,7 +64,29 @@
   font-size: 12px;
 }
 
-.post-nav-fixed {
+.post-navigation {
+  font-family: Verdana;
+  font-size: 100%;
+  line-height: 130%;
+  color: #4E5359;
   position: fixed;
-  width: 280px;
+  width: 240px;
+  margin-top: 50px;
+}
+
+.post-navigation a {
+  color: #3E4349;
+}
+
+.post-navigation small {
+  color: #6E8389;
+}
+
+.post-navigation ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.post-navigation li {
+  margin-bottom: 10px;
 }

@@ -5,7 +5,7 @@ description: "разработка программного обеспечени
 category: links
 ---
 
-## Python
+### <strong>Python</strong>
 
 [Beginners' Guide to Concurrency and Parallelism in Python](http://www.toptal.com/python/beginners-guide-to-concurrency-and-parallelism-in-python) - Статья о многозадачности в Python.
 
@@ -15,10 +15,12 @@ category: links
 
 ***
 
-## Инструменты разработчика
+### Инструменты разработчика
+<br>
 
-### [Git](http://git-scm.com/)
-[Документация](http://git-scm.com/doc)
+#### [Git - распределенная система контроля версий](http://git-scm.com/)
+
+[Официальная документация](http://git-scm.com/doc)
 
 [Pro Git](http://git-scm.com/book) - официальная книга о системе контроля версий Git, есть русскоязычный вариант.
 
@@ -28,16 +30,21 @@ category: links
 Оригинальная статья Vincent Driessen - [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
 
 [Ежедневная работа с Git](http://habrahabr.ru/post/174467/)
-
 <br>
 
-### [Sublime Text](http://www.sublimetext.com/)
+#### [Sublime Text](http://www.sublimetext.com/)
 
 Быстрый, мощный и гибкий текстовый редактор для программистов со множеством плагинов.
 
 [Package Control](https://packagecontrol.io/installation) - менеджер пакетов для Sublime Text.
 
 [Predawn](https://github.com/jamiewilson/predawn) - крутая темная тема.  
-<a href="https://github.com/jamiewilson/predawn/raw/master/screenshots/screenshot.png"><img src="https://github.com/jamiewilson/predawn/raw/master/screenshots/screenshot.png" width="256"></a>
+<a href="https://github.com/jamiewilson/predawn/raw/master/screenshots/screenshot.png"><img src="https://github.com/jamiewilson/predawn/raw/master/screenshots/screenshot.png" width="50%"></a>
 
 [PowerShell](https://github.com/SublimeText/PowerShell) - плагин для поддержки языка PowerShell.
+
+***
+
+### Написание кода
+
+[Код с запашком - википедия](https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B4_%D1%81_%D0%B7%D0%B0%D0%BF%D0%B0%D1%88%D0%BA%D0%BE%D0%BC#.D0.A1.D1.82.D1.80.D0.B5.D0.BB.D1.8C.D0.B1.D0.B0_.D0.B4.D1.80.D0.BE.D0.B1.D1.8C.D1.8E) - признаки необходимости рефакторинга.

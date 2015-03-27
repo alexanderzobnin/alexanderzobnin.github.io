@@ -5,9 +5,12 @@ description: "приобретение новых навыков и развит
 category: links
 ---
 
+### Обучающие ресурсы
+<br>
+
 #### [Codewars](http://www.codewars.com/)
 > Achieve code mastery through challenge.
-> Codewars is a collective effort by its users. They are creators - authoring kata to teach various techniques, solving kata with solutions that enlighten others, and commenting with constructive feedback. The leaders among them moderate the content and community.
+> Codewars is a collective effort by its users. They are creators - authoring kata to teach various techniques, solving kata with solutions that enlighten others, and commenting with constructive feedback. The leaders among them moderate the content and community.  
 
 Выполняйте задания по программированию и повышайте рейтинг.
 Есть задания по алгоритмам, логике, типам данных, математике и др.
@@ -28,3 +31,6 @@ category: links
 Make a Website, Make an Interactive Website, Make a Rails Application, HTML & CSS, Javascript, jQuery, Python, Ruby, PHP.
 
 <br>
+
+### Разное
+[Матрица компетентности программиста](http://grompe.org.ru/static/prog_comp_matrix_ru.html)

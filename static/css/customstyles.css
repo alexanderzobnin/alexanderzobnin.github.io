@@ -36,6 +36,10 @@
   color: #007BAB;
 }
 
+.post h4 a {
+  color: #004B6B;
+}
+
 /* Customize blockquote in posts */
 .post blockquote {
   font-size: 14px;

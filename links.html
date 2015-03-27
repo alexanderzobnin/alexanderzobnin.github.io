@@ -6,11 +6,12 @@ title: Коллекция ссылок
 <div class="row">
 
   <div class="col-md-3">
-    <div class="post-navigation visible-lg-block visible-md-block">
-      <p><a href="#">В начало</a></p>
-
-      <strong>Содержание</strong>
-      <ul>
+    <div class="post-navigation visible-lg-block visible-md-block" data-spy="affix" data-offset-top="600">
+      <strong>Содержание</strong>      
+      <ul class="nav nav-tabs nav-stacked" role="tablist">
+        <li>
+          <a href="#">Наверх</a>
+        </li>
         {% for post in site.categories.links %}
         <li>
           <a href="#{{ post.title }}">
@@ -22,7 +23,7 @@ title: Коллекция ссылок
         {% endfor %}
       </ul>
     </div>
-  </div>
+  </div>  
 
   <div class="col-md-9">
 
@@ -52,4 +53,4 @@ title: Коллекция ссылок
     {% endfor %}
   </div>
   
-</div>
+</div> <!-- /.row -->

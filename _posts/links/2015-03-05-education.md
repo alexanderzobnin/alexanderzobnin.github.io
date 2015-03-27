@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Образование"
+post_id: education
 description: "приобретение новых навыков и развитие существующих"
 category: links
 ---

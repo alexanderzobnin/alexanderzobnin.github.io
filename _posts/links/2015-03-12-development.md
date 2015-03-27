@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Development"
+post_id: development
 description: "разработка программного обеспечения"
 category: links
 ---

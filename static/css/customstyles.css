@@ -16,6 +16,10 @@
   padding-right: 16px;
 }
 
+body {
+  position: relative;
+}
+
 /*** .page-content ***/
 
 .page-content {
@@ -73,7 +77,6 @@
   font-size: 100%;
   line-height: 130%;
   color: #4E5359;
-  position: fixed;
   width: 220px;
   margin-top: 40px;
 }
@@ -87,10 +90,10 @@
 }
 
 .post-navigation ul {
-  padding-left: 20px;
+  padding-left: 0px;
   margin-top: 10px;
 }
 
 .post-navigation li {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }

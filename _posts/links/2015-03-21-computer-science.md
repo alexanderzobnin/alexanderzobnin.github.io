@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Computer science"
+post_id: computer-science
 description: "базовые знания в области информатики"
 category: links
 ---

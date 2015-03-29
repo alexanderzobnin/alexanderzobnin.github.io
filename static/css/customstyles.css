@@ -54,14 +54,14 @@ body {
 .post img {
   /* from bootstrap .img-responsive class */
   display: block;
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
 
   /* from bootstrap .img-thumbnail class */
-  padding: 4px;
+  padding: 1px;
   background-color: #fff;
   border: 1px solid #ddd;
-  border-radius: 4px;
+  border-radius: 2px;
 }
 
 .post .media-object {

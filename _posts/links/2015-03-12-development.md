@@ -14,6 +14,16 @@ category: links
 
 [Writing Forwards Compatible Python Code](http://lucumr.pocoo.org/2011/1/22/forwards-compatible-python/) - как писать код на Python 2, который проще будет перенести на версию 3.
 
+[PEP8 - стиль кода в языке Python (на русском)](http://pep8.ru/doc/pep8/)
+
+<br>
+
+#### Flask
+
+Микрофреймворк для разработки веб-приложений на Python.  
+[Flask](http://flask.pocoo.org/) - официальный сайт.  
+[The status of Python 3](http://flask.pocoo.org/docs/0.10/advanced_foreword/#the-status-of-python-3) - Статус Python 3.
+
 ***
 
 ### Инструменты разработчика

@@ -12,6 +12,10 @@ category: links
 
 [Concurrent HTTP Requests with Python3 and asyncio](http://geekgirl.io/concurrent-http-requests-with-python3-and-asyncio/) - Параллельные HTTP запросы в Python 3 с помощью asyncio.
 
+[aiohttp](http://aiohttp.readthedocs.org) - HTTP client/server for asyncio.
+
+[PEP 380 - Syntax for Delegating to a Subgenerator](https://www.python.org/dev/peps/pep-0380/) - описание нововведений в Python 3.3 (yield from).
+
 [Writing Forwards Compatible Python Code](http://lucumr.pocoo.org/2011/1/22/forwards-compatible-python/) - как писать код на Python 2, который проще будет перенести на версию 3.
 
 [PEP8 - стиль кода в языке Python (на русском)](http://pep8.ru/doc/pep8/)

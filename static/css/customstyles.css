@@ -78,7 +78,8 @@ body {
   line-height: 130%;
   color: #4E5359;
   width: 220px;
-  margin-top: 40px;
+  margin-left: 40px;
+  /*margin-top: 10px;*/
 }
 
 .post-navigation a {

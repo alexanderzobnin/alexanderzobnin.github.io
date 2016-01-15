@@ -6,7 +6,7 @@ description: "разработка программного обеспечени
 category: links
 ---
 
-### <strong>Python</strong>
+## Python
 
 [Beginners' Guide to Concurrency and Parallelism in Python](http://www.toptal.com/python/beginners-guide-to-concurrency-and-parallelism-in-python) - Статья о многозадачности в Python.
 
@@ -20,18 +20,28 @@ category: links
 
 [PEP8 - стиль кода в языке Python (на русском)](http://pep8.ru/doc/pep8/)
 
-<br>
+***
 
-#### Flask
+### Flask
+[flask.pocoo.org](http://flask.pocoo.org/)
 
 Микрофреймворк для разработки веб-приложений на Python.  
-[Flask](http://flask.pocoo.org/) - официальный сайт.  
 [The status of Python 3](http://flask.pocoo.org/docs/0.10/advanced_foreword/#the-status-of-python-3) - Статус Python 3.
 
 ***
 
-### Инструменты разработчика
-<br>
+## JavaScript
+
+### You Don't Know JS (book series)
+[github.com/getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS)
+
+<img src="https://github.com/getify/You-Dont-Know-JS/raw/master/scope %26 closures/cover.jpg" width="75">
+
+This is a series of books diving deep into the core mechanisms of the JavaScript language.
+
+***
+
+## Инструменты разработчика
 
 #### [Git - распределенная система контроля версий](http://git-scm.com/)
 
@@ -57,6 +67,13 @@ category: links
 <a href="https://github.com/jamiewilson/predawn/raw/master/screenshots/screenshot.png"><img src="https://github.com/jamiewilson/predawn/raw/master/screenshots/screenshot.png" width="50%"></a>
 
 [PowerShell](https://github.com/SublimeText/PowerShell) - плагин для поддержки языка PowerShell.
+
+***
+
+### Ruby Version Manager (RVM)
+[rvm.io](http://rvm.io/)
+
+> RVM is a command-line tool which allows you to easily install, manage, and work with multiple ruby environments from interpreters to sets of gems.
 
 ***
 

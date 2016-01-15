@@ -1,29 +1,9 @@
 ---
 layout: default
-title: Коллекция ссылок
+title: Полезные ресурсы
 ---
 
 <div class="row">
-
-  <div class="col-md-3">
-    <div class="post-navigation visible-lg-block visible-md-block" data-spy="affix" data-offset-top="600">
-      <strong>Содержание</strong>      
-      <ul class="nav nav-tabs nav-stacked" role="tablist">
-        <li>
-          <a href="#">Наверх</a>
-        </li>
-        {% for post in site.categories.links %}
-        <li>
-          <a href="#{{ post.title }}">
-            {{ post.title }}
-            <br>
-            <small>{{ post.description }}</small>
-          </a>        
-        </li>      
-        {% endfor %}
-      </ul>
-    </div>
-  </div>  
 
   <div class="col-md-9">
 
@@ -40,17 +20,38 @@ title: Коллекция ссылок
       <!-- Enable post custom font size (.post in customstyles.css) -->
       <div class="post">
         <div class="page-header">
-          <h2 id="{{ post.title }}">{{ post.title }}
+          <h2 id="{{ post.title }}" class="alert alert-info">
+            {{ post.title }}
             <p>
               <small>{{ post.description }}</small>
             </p>
           </h2>
         </div>
-        
+
         {{ post.content }}
 
       </div>
     {% endfor %}
   </div>
-  
+
+  <div class="col-md-3">
+    <div class="post-navigation visible-lg-block visible-md-block" data-spy="affix" data-offset-top="600">
+      <strong>Содержание</strong>
+      <ul class="nav nav-tabs nav-stacked" role="tablist">
+        <li>
+          <a href="#">Наверх</a>
+        </li>
+        {% for post in site.categories.links %}
+        <li>
+          <a href="#{{ post.title }}">
+            {{ post.title }}
+            <br>
+            <small>{{ post.description }}</small>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
 </div> <!-- /.row -->
